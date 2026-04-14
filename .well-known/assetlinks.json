@@ -1,8 +1,16 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.oldchul.twa",
-        "sha256_cert_fingerprints": ["70:EA:A5:B9:E8:53:65:1A:B0:16:B4:2A:FF:56:5C:8A:E1:3D:1E:8D:90:A7:AE:D7:32:28:79:95:35:3D:85:BA"]
-      }
-    }]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.oldchul.twa",
+      "sha256_cert_fingerprints": [
+        "70:EA:A5:B9:E8:53:65:1A:B0:16:B4:2A:FF:56:5C:8A:E1:3D:1E:8D:90:A7:AE:D7:32:28:79:95:35:3D:85:BA",
+        "89:7C:01:AE:0C:41:E3:81:CD:73:BA:B9:67:B5:BB:D3:1C:4E:EF:21:E2:88:33:68:94:03:50:89:F8:75:E8:51"
+      ]
+    }
+  }
+]
